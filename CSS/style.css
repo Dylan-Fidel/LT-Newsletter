@@ -24,8 +24,21 @@ header {
     color: white;
 }
 
+.intro-header {
+  text-align: right;
+  margin-left: 100px;
+  color: white;
+  font-size: 1.75rem;
+  line-height: 1.4;
+}
 
-  
+.intro-header span {
+  font-size: 1.75rem; /* smaller or styled differently */
+  color: white;   
+  line-height: 1.4;
+}
+
+
 h2 {
     font-size: 2.5rem;
     color: #131521;
@@ -68,11 +81,20 @@ header {
     justify-content: space-between;
 }
 
-
 .logo {
     margin-block: 0px;   
     max-height: 120px;
 }
+
+.hero-image {
+  width: 100%;
+  height: 400px; /* change this to the height you want */
+  object-fit: cover; /* this crops the image to fit the container while maintaining aspect ratio */
+  border-radius: 12px;
+  display: block;
+  margin: 40px auto;
+}
+
 
 .linkedin-button {
   text-align: center;
@@ -81,7 +103,7 @@ header {
 
 .linkedin-button a {
     font-size: 1.5rem;
-  background-color: #131521;
+  background-color: #b0a257;
   border: none;
   padding: 12px 24px;
   border-radius: 12px;
@@ -94,7 +116,7 @@ header {
 }
 
 .linkedin-button a:hover {
-    background-color: #b0a257;
+    background-color: #131521;
 }
 
 .paragraph {
@@ -158,6 +180,11 @@ footer {
 
 .footer-column a:hover {
   text-decoration: underline;
+}
+
+.contact-icon {
+  color: #63E6BE;
+  margin-right: 10px;
 }
 
 .contact-icon {
